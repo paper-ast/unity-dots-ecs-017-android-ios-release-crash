@@ -3,11 +3,10 @@ Created for or bugreport;
 
 Reproducible with: 2020.3.11f1
 
-Steps to reproduce:
-1.Create empty project in Unity with simple scene 
-2.Add packages:  
+Steps to reproduce:  
+1. Create empty project in Unity with simple scene   
+2. Add package:  
 ```
-    "com.unity.burst": "1.5.4",
     "com.unity.entities": "0.17.0-preview.42",
 ```
 3. Switch build to Android. Set release.  Set IL2CPP.
