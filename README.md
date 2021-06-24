@@ -15,6 +15,10 @@ Steps to reproduce:
 
 If downgrade entities to 0.16 or make dev.build - no crash  
 
+**upd.** In branch `workaround` add temp fix this problem.  
+- Set `UNITY_DISABLE_AUTOMATIC_SYSTEM_BOOTSTRAP` define 
+- create Manual bootstrap without line 17 - [AutomaticWorldBootstrap:17](https://github.com/paper-ast/unity-dots-ecs-017-android-ios-release-crash/branches)
+
 stacktrace:
 
 ```
@@ -126,4 +130,6 @@ stacktrace:
 2021/06/15 13:47:11.531 32609 32636 Error AndroidRuntime 	at base.0x40ec(Native Method)
 ```
 
-    
+
+
+[]: https://github.com/paper-ast/unity-dots-ecs-017-android-ios-release-crash/branches
